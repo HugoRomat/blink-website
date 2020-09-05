@@ -80,6 +80,7 @@ nav{
         position: fixed;
         top: 0px;
         background-color: rgba(255, 255, 255, 0.67);
+        z-index: 1;
       }
       nav .nav-wrapper {
       }
