@@ -12,10 +12,43 @@ body{
 
 }
 .grid-item--width2 { width: 400px; }
-
+#examples{
+  margin-top: 50px;
+  
+}
 
 img{
     width: 100%;
+}
+video{
+  width: 100%;
+}
+#content{
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+}
+#image{
+  width: 250px;
+  margin: auto;
+  margin-top: 100px;
+}
+.intro-header{
+  background: url('images/capture3.png');
+  background-size: 100%;
+  background-position-y: -150px;
+  background-repeat: no-repeat;
+  height: 300px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  object-fit: cover;
+
+}
+.container{
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 1000px;
+  text-align: justify;
 }
 
 
