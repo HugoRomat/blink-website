@@ -2,38 +2,139 @@
 <html>
     <head>
 
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <script src="masonry.pkgd.min.js"></script>
-        <script src="imagesloaded.js"></script>
+        <script src="lib/masonry.pkgd.min.js"></script>
+        <script src="lib/imagesloaded.js"></script>
 
          <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css"  media="screen,projection"/>
-         <link rel="stylesheet" type="text/css" href="mystyle.css">
+         <link rel="stylesheet" type="text/css" href="lib/mystyle.css">
     </head>
 <body>
 
 
-  <nav class="nav-center" role="navigation">
-     <div class="nav-wrapper">
+    <nav class="nav-center" role="navigation">
+        <div class="nav-wrapper">
+           <a href="#" class="brand-logo">BLInk</a>
+            <ul id="nav-mobile">
+               <li><a href="index.html">Home</a></li>
+               <!-- <li><a href="features.html">Features</a></li> -->
+               <li><a href="examples.html">Gallery</a></li>
+               <li><a href="usecases.html">Examples</a></li>
+               <li><a href="tool/index.html">Tool</a></li>
+               <li><a href="sheet.html">Cheat Sheet</a></li>
+            </ul>
+        </div>
+    </nav>
+ <!-- <div class="intro-header">
 
-         <ul id="nav-mobile">
-             <li><a href="#">Home</a></li>
-             <li><a href="#study">Gallery</a></li>
-         </ul>
-     </div>
- </nav>
+</div> -->
 
 
-    <div class="grid">
+
+    <div id='image'>
+
+        <img src='images/blink2.png' />
+    </div>
+
+    <div id= "content" style="margin-top:0px;">
+
+
+        <div class="row">
+            <div class="col m8 offset-m2 headTitle2 center">
+            Style Blink: Exploring Digital Inking of Structured Informationvia Handcrafted Styling as a First-Class Object
+            </div>
+            <br/>
+            <div class="col m6 offset-m3 justify">
+                Structured note-taking forms such as sketchnoting, self-tracking journals, and bullet journaling go beyond immediate capture of information scraps. 
+                Instead, hand-drawn pride-in-craftmanship increases perceived value for sharing and display. 
+                But hand-crafting lists, tables, and calendars is tedious and repetitive. 
+                <br/>
+                To support these practices digitally, Style Blink (“Style-Blocks+Ink”) explores handcrafted styling as a first-class object. 
+                Style-blocks encapsulate digital ink, enabling people to craft, modify, and reuse embellishments and decorations for larger structures. 
+                For example, we provide interaction instruments that style ink for personal expression, inking palettes that afford creative experimentation, fillable pens that can be “loaded” with commands and actions to replace menu selections, and techniques to customize inked structures post-creation by modifying the underlying handcrafted style-blocks. 
+                <br/>
+                In effect, any ink stroke, notation, or sketch can be encapsulated as a style-object and re-purposed as a tool. 
+                Feedback from 8 users show the potential of style adaptation and re-use in individual sketching practices.
+            </div>
 
     </div>
-    <div id="seeMore">
-      <div>
-        see more
-      </div>
-      </div>
+
+
+
+    <div id= "content">
+        <div class="row">
+            <div class="col m12 offset-m0 headTitle" style="font-size:180%">
+                Core ideas
+            <hr>
+            
+        </div>
+        <div class="row">
+            <div class="col m4  featureHeader" >
+                Style Blocks
+            </div>
+            <div class="col m4  featureHeader">
+                Dividers
+      
+            </div>
+            <div class="col m4 featureHeader">
+                Tags
+       
+            </div>
+
+           
+            
+        </div>
+        <div class="row" class='examples'>
+            <div class="col m4"><div class="subheader"><video controls=""><source src="images/Blocks.mp4" type="video/mp4"></video></div></div>
+            <div class="col m4"><div class="subheader"><video controls=""><source src="images/Dividers.mp4" type="video/mp4"></video></div></div>
+            <div class="col m4"><div class="subheader"><video controls=""><source src="images/Tags.mp4" type="video/mp4"></video></div></div>
+            
+        </div>  
+
+
+        <div class="row">
+            <div class="col m4 offset-m2 featureHeader" >
+                Palette
+            </div>
+            <div class="col m4  featureHeader">
+                Fillable Pens
+      
+            </div>
+
+        </div>
+        <div class="row" class='examples'>
+            <div class="col m4 offset-m2"><div class="subheader"><video controls=""><source src="images/Palette.mp4" type="video/mp4"></video></div></div>
+            <div class="col m4"><div class="subheader"><video controls=""><source src="images/FillablePens.mp4" type="video/mp4"></video></div></div>
+
+        </div>  
+
+
+    </div>
+
+    <div class="row">
+ 
+        <div class="col m12 offset-m0 headTitle" style="font-size:180%">
+            Screenshots from usecases
+        <hr>
+        </div>
+        <div class="row" class='examples'>
+            <div class="col s4 offset-s2"><img src='images/capture (1).png' /></div>
+            <div class="col s4"><img src='images/capture (2).png' /></div>
+            
+        </div>    
+        <div class="row" class='examples'>
+            <div class="col s4 offset-s2"><img src='images/capture (3).png' /></div>
+            <div class="col s4"><img src='images/capture (4).png' /></div>
+        </div>
+        <div class="row" class='examples'>
+            
+            <div class="col s4 offset-s4"><img src='images/capture (5).png' /></div> 
+        </div>
+    </div>
 
 </body>
-    <script src="myScript.js"></script>
+    
 </html>
